@@ -17,3 +17,12 @@ ag -g 'filename'
 ```bash
 meld folder1 folder2
 ````
+
+4. To search a particular word in `vim`:
+
+```bash
+/example
+Enter
+button "n" for FORWARD SEARCH
+button "N" for BACKWARD SEARCH
+```

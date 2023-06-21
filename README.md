@@ -26,3 +26,9 @@ Enter
 button "n" for FORWARD SEARCH
 button "N" for BACKWARD SEARCH
 ```
+
+5. To find out the distribution name and version of a Linux system:
+
+```bash
+lsb_release -a
+```

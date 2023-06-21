@@ -32,3 +32,10 @@ button "N" for BACKWARD SEARCH
 ```bash
 lsb_release -a
 ```
+
+6. To find out which of the devices is a `usb` device:
+
+```bash
+find /dev/disk -ls | grep usb
+```
+

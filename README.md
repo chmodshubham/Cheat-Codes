@@ -39,3 +39,14 @@ lsb_release -a
 find /dev/disk -ls | grep usb
 ```
 
+7. To decompress a `.gz` file, you can use the `gunzip` command:
+
+```bash
+gunzip abc.gz
+```
+
+8. To show the status of all network devices in a pretty human-readable format:
+
+```bash
+nmcli -p dev
+```

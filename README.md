@@ -50,3 +50,9 @@ gunzip abc.gz
 ```bash
 nmcli -p dev
 ```
+
+9. Use the `ls` command to list the files and the `wc` command to count them:
+   
+```bash
+ls | wc -l
+```

@@ -56,3 +56,9 @@ nmcli -p dev
 ```bash
 ls | wc -l
 ```
+
+10. To check the size of a directory:
+
+```bash
+du -sh /path/to/directory
+```

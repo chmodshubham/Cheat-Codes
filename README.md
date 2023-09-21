@@ -62,3 +62,9 @@ ls | wc -l
 ```bash
 du -sh /path/to/directory
 ```
+
+11. To check all the connected wifi passwords:
+
+```bash
+sudo grep psk= /etc/NetworkManager/system-connections/*
+```
